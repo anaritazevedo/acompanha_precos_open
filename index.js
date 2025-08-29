@@ -209,7 +209,7 @@ async function verificarPrecos() {
 
 client.once('ready', () => {
     console.log(`${client.user.tag} está online e pronto para monitorar preços!`);
-    // Inicia a verificação periódica de preços
+
     setInterval(verificarPrecos, INTERVALO_MINUTOS * 60 * 1000);
 });
 
